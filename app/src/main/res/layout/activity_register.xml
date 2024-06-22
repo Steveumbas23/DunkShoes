@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AC5D8"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/back"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_rounded_corners_line1"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Create New Account"
+            android:textSize="25dp"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_marginTop="49dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_rounded_corners_line2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="278dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="15dp"
+                    android:padding="18dp"
+                    android:hint="Email"
+                    android:background="@drawable/checkbox" />
+
+                <EditText
+                    android:layout_width="278dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="15dp"
+                    android:padding="18dp"
+                    android:hint="Password"
+                    android:background="@drawable/checkbox" />
+
+                <EditText
+                    android:layout_width="278dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="15dp"
+                    android:padding="18dp"
+                    android:hint="Confirm Password"
+                    android:background="@drawable/checkbox" />
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="278dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#90E0EF"
+                    android:text="REGISTER"
+                    android:textColor="#3B5C62"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Don’t have an account? "/>
+
+                    <TextView
+                        android:id="@+id/tv_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6AC5D8"
+                        android:text="Login here"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

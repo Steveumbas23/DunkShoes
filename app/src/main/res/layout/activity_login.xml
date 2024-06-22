@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AC5D8"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_rounded_corners_line1"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Login You’re Account"
+            android:textSize="25dp"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_marginTop="49dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_rounded_corners_line2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="278dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="15dp"
+                    android:padding="18dp"
+                    android:hint="Email"
+                    android:background="@drawable/checkbox" />
+
+                <EditText
+                    android:layout_width="278dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="15dp"
+                    android:padding="18dp"
+                    android:hint="Password"
+                    android:background="@drawable/checkbox" />
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="278dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#90E0EF"
+                    android:text="Login"
+                    android:textSize="20dp"
+                    android:textColor="#3B5C62"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Don’t have an account? "/>
+
+                    <TextView
+                        android:id="@+id/tv_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6AC5D8"
+                        android:text="Register here "/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

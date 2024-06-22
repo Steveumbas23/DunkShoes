@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90E0EF"
+    android:orientation="vertical"
+    tools:context=".Landing_Page">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:text="Welcome To"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="55dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="DunkShoes"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/shoes" />
+
+    <Button
+        android:id="@+id/btn_started"
+        android:layout_width="270dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:textSize="25dp"
+        android:text="Get Started"
+        android:textColor="@color/black"
+        android:backgroundTint="#CAF0F8"/>
+
+</LinearLayout>
